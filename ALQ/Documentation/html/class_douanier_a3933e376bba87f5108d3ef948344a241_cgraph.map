@@ -1,0 +1,5 @@
+<map id="Douanier::Action" name="Douanier::Action">
+<area shape="rect" id="node1" title="Permet au douanier de réaliser une action chaque tour de simulation." alt="" coords="5,31,124,56"/>
+<area shape="rect" id="node2" href="$class_visiteur.html#a34e08d6107ba0d280eb4c706884c7ba1" title="Retourne si le visiteur se fait controller ou non." alt="" coords="172,5,325,31"/>
+<area shape="rect" id="node3" href="$class_visiteur.html#a77d8365a19ca26a1f3c9398a2dba087a" title="Modifie la valeur du booleen indiquant si le visiteur se fait controller ou non." alt="" coords="172,55,325,80"/>
+</map>

@@ -1,0 +1,4 @@
+﻿  Source.cpp
+P:\OAD\Tp1\Tp1\fonc.h(24,2): warning C4091: 'typedef ' : ignoré à gauche de 't_solution' quand aucune variable n'est déclarée
+P:\OAD\Tp1\Tp1\fonc.h(24,14): warning C4091: '' : ignoré à gauche de 't_solution' quand aucune variable n'est déclarée
+  Tp1.vcxproj -> P:\OAD\Tp1\Debug\Tp1.exe

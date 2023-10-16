@@ -1,0 +1,4 @@
+<map id="Boutique" name="Boutique">
+<area shape="rect" id="node1" title="Classe représentant une Boutique, qui est une classe fille de Zone." alt="" coords="5,160,201,311"/>
+<area shape="rect" id="node2" href="$class_zone.html" title="Classe représentant une zone de l&#39;aéroport." alt="" coords="20,5,187,112"/>
+</map>

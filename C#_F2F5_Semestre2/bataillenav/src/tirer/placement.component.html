@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang='fr'>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="placement.component.css">
+     
+
+        <title>
+            Placement des navires
+        </title>
+        
+    </head>
+
+    <body>
+
+      <h1 style="text-align: center;">veuillez placer vos navires</h1>
+   
+      <div>
+        <a class=" bouton violet" style="position: absolute;left: 45%; top: 40%;">Placer</a>
+        <a routerLink="/game" class=" bouton valider violet">Jouer</a>
+      </div>
+
+
+          <div style="position: absolute;left: 15%; top: 10%;">
+            <h1>Placez vos navires</h1>
+            <div id="buttonsContainer" class="grid"></div>
+          </div>
+          <table>
+            <tbody>
+              <tr>
+                <td (click)="cellClicked(0,0)"></td>
+                <td (click)="cellClicked(0,1)"></td>
+                <td (click)="cellClicked(0,2)"></td>
+                <td (click)="cellClicked(0,3)"></td>
+                <td (click)="cellClicked(0,4)"></td>
+                <td (click)="cellClicked(0,5)"></td>
+                <td (click)="cellClicked(0,6)"></td>
+                <td (click)="cellClicked(0,7)"></td>
+                <td (click)="cellClicked(0,8)"></td>
+                <td (click)="cellClicked(0,9)"></td>
+              </tr>
+              <tr>
+                <td (click)="cellClicked(1,0)"></td>
+                <td (click)="cellClicked(1,1)"></td>
+                <td (click)="cellClicked(1,2)"></td>
+                <td (click)="cellClicked(1,3)"></td>
+                <td (click)="cellClicked(1,4)"></td>
+                <td (click)="cellClicked(1,5)"></td>
+                <td (click)="cellClicked(1,6)"></td>
+                <td (click)="cellClicked(1,7)"></td>
+                <td (click)="cellClicked(1,8)"></td>
+                <td (click)="cellClicked(1,9)"></td>
+              </tr>
+              <tr>
+                <td (click)="cellClicked(2,0)"></td>
+                <td (click)="cellClicked(2,1)"></td>
+                <td (click)="cellClicked(2,2)"></td>
+                <td (click)="cellClicked(2,3)"></td>
+                <td (click)="cellClicked(2,4)"></td>
+                <td (click)="cellClicked(2,5)"></td>
+                <td (click)="cellClicked(2,6)"></td>
+                <td (click)="cellClicked(2,7)"></td>
+                <td (click)="cellClicked(2,8)"></td>
+                <td (click)="cellClicked(2,9)"></td>
+              </tr>
+              <tr>
+                <td (click)="cellClicked(3,0)"></td>
+                <td (click)="cellClicked(3,1)"></td>
+                <td (click)="cellClicked(3,2)"></td>
+                <td (click)="cellClicked(3,3)"></td>
+                <td (click)="cellClicked(3,4)"></td>
+                <td (click)="cellClicked(3,5)"></td>
+                <td (click)="cellClicked(3,6)"></td>
+                <td (click)="cellClicked(3,7)"></td>
+                <td (click)="cellClicked(3,8)"></td>
+                <td (click)="cellClicked(3,9)"></td>
+              </tr>
+              <tr>
+                <td (click)="cellClicked(4,0)"></td>
+                <td (click)="cellClicked(4,1)"></td>
+                <td (click)="cellClicked(4,2)"></td>
+                <td (click)="cellClicked(4,3)"></td>
+                <td (click)="cellClicked(4,4)"></td>
+                <td (click)="cellClicked(4,5)"></td>
+                <td (click)="cellClicked(4,6)"></td>
+                <td (click)="cellClicked(4,7)"></td>
+                <td (click)="cellClicked(4,8)"></td>
+                <td (click)="cellClicked(4,9)"></td>
+              </tr>
+              <tr>
+                <td (click)="cellClicked(5,0)"></td>
+                <td (click)="cellClicked(5,1)"></td>
+                <td (click)="cellClicked(5,2)"></td>
+                <td (click)="cellClicked(5,3)"></td>
+                <td (click)="cellClicked(5,4)"></td>
+                <td (click)="cellClicked(5,5)"></td>
+                <td (click)="cellClicked(5,6)"></td>
+                <td (click)="cellClicked(5,7)"></td>
+                <td (click)="cellClicked(5,8)"></td>
+                <td (click)="cellClicked(5,9)"></td>
+              </tr>
+              <tr>
+                <td (click)="cellClicked(6,0)"></td>
+                <td (click)="cellClicked(6,1)"></td>
+                <td (click)="cellClicked(6,2)"></td>
+                <td (click)="cellClicked(6,3)"></td>
+                <td (click)="cellClicked(6,4)"></td>
+                <td (click)="cellClicked(6,5)"></td>
+                <td (click)="cellClicked(6,6)"></td>
+                <td (click)="cellClicked(6,7)"></td>
+                <td (click)="cellClicked(6,8)"></td>
+                <td (click)="cellClicked(6,9)"></td>
+              </tr>
+              <tr>
+                <td (click)="cellClicked(7,0)"></td>
+                <td (click)="cellClicked(7,1)"></td>
+                <td (click)="cellClicked(7,2)"></td>
+                <td (click)="cellClicked(7,3)"></td>
+                <td (click)="cellClicked(7,4)"></td>
+                <td (click)="cellClicked(7,5)"></td>
+                <td (click)="cellClicked(7,6)"></td>
+                <td (click)="cellClicked(7,7)"></td>
+                <td (click)="cellClicked(7,8)"></td>
+                <td (click)="cellClicked(7,9)"></td>
+              </tr>
+              <tr>
+                <td (click)="cellClicked(8,0)"></td>
+                <td (click)="cellClicked(8,1)"></td>
+                <td (click)="cellClicked(8,2)"></td>
+                <td (click)="cellClicked(8,3)"></td>
+                <td (click)="cellClicked(8,4)"></td>
+                <td (click)="cellClicked(8,5)"></td>
+                <td (click)="cellClicked(8,6)"></td>
+                <td (click)="cellClicked(8,7)"></td>
+                <td (click)="cellClicked(8,8)"></td>
+                <td (click)="cellClicked(8,9)"></td>
+              </tr>
+              <tr>
+                <td (click)="cellClicked(9,0)"></td>
+                <td (click)="cellClicked(9,1)"></td>
+                <td (click)="cellClicked(9,2)"></td>
+                <td (click)="cellClicked(9,3)"></td>
+                <td (click)="cellClicked(9,4)"></td>
+                <td (click)="cellClicked(9,5)"></td>
+                <td (click)="cellClicked(9,6)"></td>
+                <td (click)="cellClicked(9,7)"></td>
+                <td (click)="cellClicked(9,8)"></td>
+                <td (click)="cellClicked(9,9)"></td>
+              </tr>
+              <!-- Les autres lignes du tableau -->
+            </tbody>
+          </table>
+          
+
+
+
+
+        <a routerLink="/" class=" bouton retour violet">Quiter</a>
+      
+    </body>
+</html>

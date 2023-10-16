@@ -1,0 +1,5 @@
+<map id="Personne::getPos" name="Personne::getPos">
+<area shape="rect" id="node1" title="Retourne la position de la personne." alt="" coords="175,31,301,56"/>
+<area shape="rect" id="node2" href="$class_visiteur.html#a3d87d442f99d0f18404121eae1fda102" title="Action réalisé par un visiteur à chaque tour de la simulation." alt="" coords="11,5,121,31"/>
+<area shape="rect" id="node3" href="$class_map.html#ac6a8f998c2e8043e6f99e9dc59569a93" title=" " alt="" coords="5,55,127,80"/>
+</map>

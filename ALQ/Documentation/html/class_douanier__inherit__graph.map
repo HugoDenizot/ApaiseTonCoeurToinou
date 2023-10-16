@@ -1,0 +1,4 @@
+<map id="Douanier" name="Douanier">
+<area shape="rect" id="node1" title="Classe représentant un douanier." alt="" coords="13,292,181,443"/>
+<area shape="rect" id="node2" href="$class_personne.html" title="Classe représentant une personne dans l&#39;aéroport." alt="" coords="5,5,188,244"/>
+</map>

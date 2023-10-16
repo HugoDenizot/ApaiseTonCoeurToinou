@@ -1,0 +1,5 @@
+<map id="Position::setX" name="Position::setX">
+<area shape="rect" id="node1" title="Modifie la valeur de la position X." alt="" coords="401,5,504,31"/>
+<area shape="rect" id="node2" href="$class_personne.html#aee2c2bbc6985cd4752905d57f3175814" title="Permet de déplacer une personne à une position donnée si cette dernière n&#39;est pas déjà occupée." alt="" coords="164,5,353,31"/>
+<area shape="rect" id="node3" href="$class_visiteur.html#a3d87d442f99d0f18404121eae1fda102" title="Action réalisé par un visiteur à chaque tour de la simulation." alt="" coords="5,5,116,31"/>
+</map>

@@ -1,0 +1,8 @@
+﻿  Tp2.cpp
+C:\Users\hugod\Documents\Isima\OAD\Tp2\Tp2\Header.h(13,2): warning C4091: 'typedef ' : ignoré à gauche de 'instance' quand aucune variable n'est déclarée
+C:\Users\hugod\Documents\Isima\OAD\Tp2\Tp2\Header.h(25,2): warning C4091: 'typedef ' : ignoré à gauche de 'solution' quand aucune variable n'est déclarée
+C:\Users\hugod\Documents\Isima\OAD\Tp2\Tp2\Tp2.cpp(17,15): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+C:\Users\hugod\Documents\Isima\OAD\Tp2\Tp2\Tp2.cpp(19,15): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+C:\Users\hugod\Documents\Isima\OAD\Tp2\Tp2\Tp2.cpp(173,43): warning C4244: '+=' : conversion de 'double' en 'int', perte possible de données
+C:\Users\hugod\Documents\Isima\OAD\Tp2\Tp2\Tp2.cpp(150): warning C4715: 'chercher' : les chemins de contrôle ne retournent pas tous une valeur
+  Tp2.vcxproj -> C:\Users\hugod\Documents\Isima\OAD\Tp2\Tp2\Debug\Tp2.exe

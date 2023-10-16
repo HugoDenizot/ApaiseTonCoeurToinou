@@ -1,0 +1,9 @@
+<map id="Position::getY" name="Position::getY">
+<area shape="rect" id="node1" title="Récupère la valeur de la position Y." alt="" coords="475,120,579,145"/>
+<area shape="rect" id="node2" href="$class_visiteur.html#a3d87d442f99d0f18404121eae1fda102" title="Action réalisé par un visiteur à chaque tour de la simulation." alt="" coords="5,69,116,95"/>
+<area shape="rect" id="node3" href="$class_map.html#ac6a8f998c2e8043e6f99e9dc59569a93" title=" " alt="" coords="235,45,356,71"/>
+<area shape="rect" id="node4" href="$class_boutique.html#a054982a7971b809694d2c79a273cad77" title="Constructeur d&#39;une boutique avec des paramètres données." alt="" coords="229,95,361,120"/>
+<area shape="rect" id="node5" href="$class_personne.html#aee2c2bbc6985cd4752905d57f3175814" title="Permet de déplacer une personne à une position donnée si cette dernière n&#39;est pas déjà occupée." alt="" coords="201,144,390,169"/>
+<area shape="rect" id="node6" href="$class_zone_bagage.html#a32ad413cafabdb6e5e00b3127358926e" title="Constructeur d&#39;une zone à une position donnée." alt="" coords="208,193,383,219"/>
+<area shape="rect" id="node7" href="$class_zone_embarquement.html#a364200e71c19bcc1a4f0b0fb58e135a1" title="Constructeur d&#39;une zone d&#39;embarquement avec des valeurs précises." alt="" coords="164,243,427,268"/>
+</map>

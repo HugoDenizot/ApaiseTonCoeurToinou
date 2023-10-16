@@ -1,0 +1,5 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="node1" href="$class_personne.html" title="Classe représentant une personne dans l&#39;aéroport." alt="" coords="5,31,83,56"/>
+<area shape="rect" id="node2" href="$class_douanier.html" title="Classe représentant un douanier." alt="" coords="131,5,204,31"/>
+<area shape="rect" id="node3" href="$class_visiteur.html" title="Classe représentant un visiteur de l&#39;aéroport." alt="" coords="134,55,201,80"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Map::ajouterPers" name="Map::ajouterPers">
+<area shape="rect" id="node1" title=" " alt="" coords="5,80,127,105"/>
+<area shape="rect" id="node2" href="$class_personne.html#ac16f32799382e7c05b231a0e23924fef" title="Retourne la position de la personne." alt="" coords="175,5,301,31"/>
+<area shape="rect" id="node3" href="$class_position.html#a4e65d4b865c08791302956e2912a2300" title="Récupère la valeur de la position X." alt="" coords="187,55,289,80"/>
+<area shape="rect" id="node4" href="$class_position.html#ab386f9a955ea2e291774f8d403614260" title="Récupère la valeur de la position Y." alt="" coords="186,104,290,129"/>
+<area shape="rect" id="node5" href="$class_map.html#a0ed91be9e57f251562541c30234b8f17" title="Cette méthode permet de savoir l&#39;élément à une position donnée." alt="" coords="177,153,299,179"/>
+</map>

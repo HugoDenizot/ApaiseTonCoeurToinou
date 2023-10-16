@@ -1,0 +1,7 @@
+﻿  Source.cpp
+C:\Users\hugod\source\repos\OAD\Source.cpp(8,15): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+C:\Users\hugod\source\repos\OAD\Source.cpp(130,25): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\hugod\source\repos\OAD\Source.cpp(135,29): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\hugod\source\repos\OAD\Source.cpp(140,33): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\hugod\source\repos\OAD\Source.cpp(165,11): warning C4101: 'random' : variable locale non référencée
+  OAD.vcxproj -> C:\Users\hugod\source\repos\OAD\Debug\OAD.exe

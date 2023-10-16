@@ -1,0 +1,6 @@
+<map id="Map::OnthisCase" name="Map::OnthisCase">
+<area shape="rect" id="node1" title="Cette méthode permet de savoir l&#39;élément à une position donnée." alt="" coords="401,31,524,56"/>
+<area shape="rect" id="node2" href="$class_map.html#ac6a8f998c2e8043e6f99e9dc59569a93" title=" " alt="" coords="198,5,319,31"/>
+<area shape="rect" id="node3" href="$class_personne.html#aee2c2bbc6985cd4752905d57f3175814" title="Permet de déplacer une personne à une position donnée si cette dernière n&#39;est pas déjà occupée." alt="" coords="164,55,353,80"/>
+<area shape="rect" id="node4" href="$class_visiteur.html#a3d87d442f99d0f18404121eae1fda102" title="Action réalisé par un visiteur à chaque tour de la simulation." alt="" coords="5,55,116,80"/>
+</map>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='fr'>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="placement.component.css">
+     
+
+        <title>
+            Placement des navires
+        </title>
+        
+    </head>
+
+    <body>
+
+      <h1 style="text-align: center;">veuillez placer vos navires</h1>
+      <h2 style="text-align: center;">Placez bateau de taille : {{taille}}</h2>
+      <h3 style="text-align: right;">Id session: {{id_session}}</h3>
+   
+      <div>
+        <div>
+          <input type="radio" name="choice" value="Horizontal" checked (change)="onRadioChange($event)"> Horizontal
+          <input type="radio" name="choice" value="Vertical" (change)="onRadioChange($event)"> Vertical
+        </div>
+      </div>
+
+
+      <div style="position: absolute;left: 15%; top: 10%;">
+        <h1>Placez vos navires</h1>
+        <div id="buttonsContainer" class="grid"></div>
+      </div>
+          
+
+
+
+
+        <a routerLink="/" class=" bouton retour violet">Quiter</a>
+      
+    </body>
+</html>

@@ -1,0 +1,11 @@
+<map id="Visiteur::Action" name="Visiteur::Action">
+<area shape="rect" id="node1" title="Action réalisé par un visiteur à chaque tour de la simulation." alt="" coords="5,132,116,157"/>
+<area shape="rect" id="node2" href="$class_personne.html#aee2c2bbc6985cd4752905d57f3175814" title="Permet de déplacer une personne à une position donnée si cette dernière n&#39;est pas déjà occupée." alt="" coords="164,107,353,132"/>
+<area shape="rect" id="node3" href="$class_position.html#a4e65d4b865c08791302956e2912a2300" title="Récupère la valeur de la position X." alt="" coords="411,5,514,31"/>
+<area shape="rect" id="node4" href="$class_position.html#ab386f9a955ea2e291774f8d403614260" title="Récupère la valeur de la position Y." alt="" coords="411,55,515,80"/>
+<area shape="rect" id="node7" href="$class_position.html#aa8e5438803d89c212bec19ecb85c65b2" title="Modifie la valeur de la position y." alt="" coords="411,203,515,228"/>
+<area shape="rect" id="node8" href="$class_personne.html#ac16f32799382e7c05b231a0e23924fef" title="Retourne la position de la personne." alt="" coords="195,208,322,233"/>
+<area shape="rect" id="node9" href="$class_zone.html#a9cfa03bf553016d16ecf535555b47b42" title="Retourne la position d&#39;une zone." alt="" coords="209,257,308,283"/>
+<area shape="rect" id="node5" href="$class_map.html#a0ed91be9e57f251562541c30234b8f17" title="Cette méthode permet de savoir l&#39;élément à une position donnée." alt="" coords="401,153,524,179"/>
+<area shape="rect" id="node6" href="$class_position.html#a81917460c3a770cdbeb9ea9449cdf250" title="Modifie la valeur de la position X." alt="" coords="411,104,514,129"/>
+</map>

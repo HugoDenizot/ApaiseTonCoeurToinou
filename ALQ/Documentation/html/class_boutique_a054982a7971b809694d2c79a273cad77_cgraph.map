@@ -1,0 +1,5 @@
+<map id="Boutique::Boutique" name="Boutique::Boutique">
+<area shape="rect" id="node1" title="Constructeur d&#39;une boutique avec des paramètres données." alt="" coords="5,31,137,56"/>
+<area shape="rect" id="node2" href="$class_position.html#a4e65d4b865c08791302956e2912a2300" title="Récupère la valeur de la position X." alt="" coords="186,5,289,31"/>
+<area shape="rect" id="node3" href="$class_position.html#ab386f9a955ea2e291774f8d403614260" title="Récupère la valeur de la position Y." alt="" coords="185,55,289,80"/>
+</map>

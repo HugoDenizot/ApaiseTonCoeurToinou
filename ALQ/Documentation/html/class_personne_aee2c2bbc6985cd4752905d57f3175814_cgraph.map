@@ -1,0 +1,8 @@
+<map id="Personne::deplacerPersonne" name="Personne::deplacerPersonne">
+<area shape="rect" id="node1" title="Permet de déplacer une personne à une position donnée si cette dernière n&#39;est pas déjà occupée." alt="" coords="5,104,195,129"/>
+<area shape="rect" id="node2" href="$class_position.html#a4e65d4b865c08791302956e2912a2300" title="Récupère la valeur de la position X." alt="" coords="253,5,355,31"/>
+<area shape="rect" id="node3" href="$class_position.html#ab386f9a955ea2e291774f8d403614260" title="Récupère la valeur de la position Y." alt="" coords="252,55,356,80"/>
+<area shape="rect" id="node4" href="$class_map.html#a0ed91be9e57f251562541c30234b8f17" title="Cette méthode permet de savoir l&#39;élément à une position donnée." alt="" coords="243,104,365,129"/>
+<area shape="rect" id="node5" href="$class_position.html#a81917460c3a770cdbeb9ea9449cdf250" title="Modifie la valeur de la position X." alt="" coords="253,153,355,179"/>
+<area shape="rect" id="node6" href="$class_position.html#aa8e5438803d89c212bec19ecb85c65b2" title="Modifie la valeur de la position y." alt="" coords="252,203,356,228"/>
+</map>

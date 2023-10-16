@@ -1,0 +1,23 @@
+p,form {
+    text-align:center;
+    font-size:2em;
+    font-family:Helvetica;
+}
+
+h1 {
+    font-size:2.5em;
+    text-align:center;
+    font-family:Helvetica;
+}
+
+body {
+    background: linear-gradient(90deg, #AACFED, #1A68A9);
+}
+
+.bouton {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+

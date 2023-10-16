@@ -1,0 +1,4 @@
+<map id="Visiteur::setEstControl" name="Visiteur::setEstControl">
+<area shape="rect" id="node1" title="Modifie la valeur du booleen indiquant si le visiteur se fait controller ou non." alt="" coords="172,5,325,31"/>
+<area shape="rect" id="node2" href="$class_douanier.html#a3933e376bba87f5108d3ef948344a241" title="Permet au douanier de réaliser une action chaque tour de simulation." alt="" coords="5,5,124,31"/>
+</map>

@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SMAirport:  Fichier source de P:/Cours/Isima/ALQ/smairport/code/ZoneEmbarquement.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">SMAirport
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_zone_embarquement_8hpp_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">ZoneEmbarquement.hpp</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef ZONEEMBARQUEMENT_GUARD</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define ZONEEMBARQUEMENT_GUARD</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;Zone.hpp&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;Position.hpp&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">using </span>std::string;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="class_zone_embarquement.html">   15</a></span><span class="keyword">class </span><a class="code hl_class" href="class_zone_embarquement.html">ZoneEmbarquement</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_zone.html">Zone</a>{</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keywordtype">int</span> nombrePersonneMax; </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keywordtype">int</span> nombrePersonneActuelle; </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordtype">string</span> nomZoneEmbarquement; </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keywordtype">int</span> <a class="code hl_function" href="class_zone_embarquement.html#a428dc5b0c37676701f79c096431b2c4c">getNombrePersonneMax</a>();</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <span class="keywordtype">int</span> <a class="code hl_function" href="class_zone_embarquement.html#a1a5c6619a1edb009954415b0d68fe14e">getNbPersonneActuelle</a>();</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordtype">string</span> <a class="code hl_function" href="class_zone_embarquement.html#abdf8253607ab693618c315fbb68b3dba">getnomZoneEmarquement</a>();</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <a class="code hl_function" href="class_zone_embarquement.html#a735be918a81b5316319c6866db657077">ZoneEmbarquement</a>(<span class="keywordtype">int</span> nombrePersonne, <span class="keywordtype">string</span> nom,<a class="code hl_class" href="class_position.html">Position</a> p);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <a class="code hl_function" href="class_zone_embarquement.html#a735be918a81b5316319c6866db657077">ZoneEmbarquement</a>();</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>};</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclass_position_html"><div class="ttname"><a href="class_position.html">Position</a></div><div class="ttdoc">Classe qui représente une position.</div><div class="ttdef"><b>Definition:</b> Position.hpp:11</div></div>
+<div class="ttc" id="aclass_zone_embarquement_html"><div class="ttname"><a href="class_zone_embarquement.html">ZoneEmbarquement</a></div><div class="ttdoc">Classe représentant une zone d'embarquement.</div><div class="ttdef"><b>Definition:</b> ZoneEmbarquement.hpp:15</div></div>
+<div class="ttc" id="aclass_zone_embarquement_html_a1a5c6619a1edb009954415b0d68fe14e"><div class="ttname"><a href="class_zone_embarquement.html#a1a5c6619a1edb009954415b0d68fe14e">ZoneEmbarquement::getNbPersonneActuelle</a></div><div class="ttdeci">int getNbPersonneActuelle()</div><div class="ttdoc">Retourne le nombre de personnes actuelles dans la zone d'embarquement.</div><div class="ttdef"><b>Definition:</b> ZoneEmbarquement.cpp:10</div></div>
+<div class="ttc" id="aclass_zone_embarquement_html_a428dc5b0c37676701f79c096431b2c4c"><div class="ttname"><a href="class_zone_embarquement.html#a428dc5b0c37676701f79c096431b2c4c">ZoneEmbarquement::getNombrePersonneMax</a></div><div class="ttdeci">int getNombrePersonneMax()</div><div class="ttdoc">Retourne le nombre de personnes max dans la zone d'embarquement.</div><div class="ttdef"><b>Definition:</b> ZoneEmbarquement.cpp:5</div></div>
+<div class="ttc" id="aclass_zone_embarquement_html_a735be918a81b5316319c6866db657077"><div class="ttname"><a href="class_zone_embarquement.html#a735be918a81b5316319c6866db657077">ZoneEmbarquement::ZoneEmbarquement</a></div><div class="ttdeci">ZoneEmbarquement()</div><div class="ttdoc">Constructeur par défaut d'une zone d'embarquement.</div><div class="ttdef"><b>Definition:</b> ZoneEmbarquement.cpp:22</div></div>
+<div class="ttc" id="aclass_zone_embarquement_html_abdf8253607ab693618c315fbb68b3dba"><div class="ttname"><a href="class_zone_embarquement.html#abdf8253607ab693618c315fbb68b3dba">ZoneEmbarquement::getnomZoneEmarquement</a></div><div class="ttdeci">string getnomZoneEmarquement()</div><div class="ttdoc">Retourne le nom de la zone d'embarquement.</div><div class="ttdef"><b>Definition:</b> ZoneEmbarquement.cpp:15</div></div>
+<div class="ttc" id="aclass_zone_html"><div class="ttname"><a href="class_zone.html">Zone</a></div><div class="ttdoc">Classe représentant une zone de l'aéroport.</div><div class="ttdef"><b>Definition:</b> Zone.hpp:13</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_5708da6d899940bbaabfff1e62d87ee6.html">smairport</a></li><li class="navelem"><a class="el" href="dir_cb2da2d247c4fa1f6409ff56b630ffb9.html">code</a></li><li class="navelem"><b>ZoneEmbarquement.hpp</b></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

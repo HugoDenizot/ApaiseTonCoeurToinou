@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NavalWar</title>
+    <link rel="stylesheet" href="game.component.css">
+    
+</head>
+   
+<body>
+    <div >
+      <a routerLink="" class=" bouton retour violet">Quiter</a>
+    </div>
+  
+  
+  <!--affichage de la grille -->
+    <div style="position: absolute;left: 15%; top: 10%;">
+      <h1>
+        L'id de la session est le {{id_session}}
+      </h1>
+      <h1>Votre grille de {{nom}}</h1>
+        <div id="buttonsContainer" class="grid"></div>
+      </div>
+  
+  
+  
+  
+  <!--vue de son adversaire(grille vide au debut) -->
+    <div style="position: absolute;left: 55%; top: 10%;">
+      <h1>Tour de {{nomJoueurTour}}</h1>
+      <h1>Joueur Adverse</h1>
+      
+      <div class="grid" id="buttonsContainerad"> </div>
+    </div>
+  
+  </body>
+  </html>
+

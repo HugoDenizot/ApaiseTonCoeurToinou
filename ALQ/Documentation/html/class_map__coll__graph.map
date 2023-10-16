@@ -1,0 +1,6 @@
+<map id="Map" name="Map">
+<area shape="rect" id="node1" title="Classe qui représente la map." alt="" coords="64,520,271,700"/>
+<area shape="rect" id="node2" href="$class_personne.html" title="Classe représentant une personne dans l&#39;aéroport." alt="" coords="5,219,188,457"/>
+<area shape="rect" id="node3" href="$class_zone.html" title="Classe représentant une zone de l&#39;aéroport." alt="" coords="212,285,379,391"/>
+<area shape="rect" id="node4" href="$class_position.html" title="Classe qui représente une position." alt="" coords="222,5,369,156"/>
+</map>

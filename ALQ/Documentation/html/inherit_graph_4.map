@@ -1,0 +1,6 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="node1" href="$class_zone.html" title="Classe représentant une zone de l&#39;aéroport." alt="" coords="5,55,56,80"/>
+<area shape="rect" id="node2" href="$class_boutique.html" title="Classe représentant une Boutique, qui est une classe fille de Zone." alt="" coords="137,5,210,31"/>
+<area shape="rect" id="node3" href="$class_zone_bagage.html" title="Classe représentant une zone de bagages de l&#39;aéroport." alt="" coords="126,55,221,80"/>
+<area shape="rect" id="node4" href="$class_zone_embarquement.html" title="Classe représentant une zone d&#39;embarquement." alt="" coords="104,104,243,129"/>
+</map>

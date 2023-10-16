@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang='fr'>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="rejoindre-partie.component.css">
+        <title>
+            Bataille navale rejoindre partie
+        </title>
+        
+    </head>
+
+    <body>
+
+        <p>
+            Donner l'id de la partie que vous souhaitez rejoindre.
+        </p>
+            <input (keydown.enter)="onKeyUp($event)"> 
+            <p>{{keys}}</p>`
+        
+        <p>
+            <a routerLink="/accueil">Retour</a>
+        </p>
+
+    </body>
+</html>
